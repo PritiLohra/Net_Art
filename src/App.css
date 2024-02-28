@@ -1,0 +1,85 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+/* Styles for the Logo */
+.App-logo {
+  max-width: 150%;
+  height: 180px;
+  margin-bottom: 10px;
+}
+
+/* Header styles */
+.App-header {
+  background-color: #fbfcfc;
+  color: rgb(40, 37, 37);
+  text-align: center;
+  padding: 20px;
+}
+
+/* Content styles */
+.Content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+  padding: 20px;
+}
+
+/* Container for the image grid */
+.Image-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Styles for each image in the grid */
+.Image {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.Image-left {
+  float: left;
+}
+
+.Image-right {
+  float: right;
+}
+
+.Image-center {
+  margin: 0 auto;
+}
+
+/* Footer styles */
+footer {
+  background-color: #ff0044;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+footer p:first-child {
+  text-align: left;
+}
+
+
+footer p:nth-child(2) {
+  text-align: center;
+}
+
+
+footer p:nth-child(3) {
+  text-align: right;
+}
+
+.right-align {
+  text-align: right;
+}
